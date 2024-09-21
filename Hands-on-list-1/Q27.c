@@ -5,7 +5,7 @@ Author : Yashraj Singh Chauhan
 Description :Write a program to execute ls -Rl by the following system calls
              a. execl
              b. execlp
-             c. execled
+             c. execle
              d. execv
              e. execvp
 Date: 28th Aug, 2024.

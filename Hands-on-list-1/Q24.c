@@ -22,7 +22,8 @@ int main()
     else if (pid == 0) 
     { 
         printf("inside child pid= %d\n", getpid());
-        printf("parent id= %d\n", getppid());
+        sleep(10);
+        exit(EXIT_SUCCESS);
     }
     return 0; 
 } 
